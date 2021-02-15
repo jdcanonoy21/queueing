@@ -1,0 +1,21 @@
+.Content{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+.Content__section{
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.Content__header{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.Content__section button {
+	padding: 10px;
+	font-size: 22px;
+	width: 200px;
+	margin: 0px 10px 0px 10px !important;
+}

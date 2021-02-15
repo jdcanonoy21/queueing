@@ -1,0 +1,24 @@
+.Header {
+    background-color: #ecf0f1;
+    flex-shrink: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.Header__logo img{
+	height: 100px;
+	margin: 5px;
+}
+.Header__name{
+	font-size: 20px;
+	margin: 5px;
+}
+.Header__dateTime{
+	margin-left: auto;
+}
+.Header__dateTime p{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	font-weight: bold;
+}

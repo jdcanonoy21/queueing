@@ -1,0 +1,28 @@
+.Priority{
+	display: flex;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	background: white;
+ 	border:2px solid #607d8b;
+}
+.Priority__header{
+	align-self: stretch;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background: #ecf0f1;
+	text-transform: uppercase;
+}
+.Priority__body{
+	display: flex;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.Priority__counter{
+	width: 50%;
+	text-align: center;
+}
+.Priority__number{
+	width: 50%;
+	text-align: center;
+}

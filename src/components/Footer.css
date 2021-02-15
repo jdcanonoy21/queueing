@@ -1,0 +1,21 @@
+/* .footer-container */
+
+.Footer {
+  background-color: #ecf0f1;
+  flex-shrink: 0;
+  bottom: 0;
+}
+.Footer__announcement{	
+	font-size: 40px;
+	margin:0px;
+}
+
+/* .divider-root */
+.Footer__divider {
+  border: none;
+  height: 1px;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+

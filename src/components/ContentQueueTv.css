@@ -1,0 +1,24 @@
+#root{
+  height: 100%;
+}
+.ContentVid {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    background: #ecf0f1;
+    border-top: 1px solid #cacaca;
+}
+.ContentVid__video{
+	width: 50%;
+    overflow: hidden;
+    background: #000000;
+}
+.ContentVid__video video{
+	width: 100%;
+	height: 100%
+} 
+.ContentVid__number{
+	width: 50%;
+    overflow: hidden;
+} 
+
