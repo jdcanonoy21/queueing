@@ -1,0 +1,46 @@
+.PriorityContainer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.PriorityContainer__content{
+	display: flex;
+ 	flex-direction: column;
+ 	background: white;
+     border:2px solid #607d8b;
+	 width: 33.33%;
+	 height: 50vh;
+}
+.PriorityContainer__header{
+	align-self: stretch;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background: #ecf0f1;
+	text-transform: uppercase;
+}
+.PriorityContainer__header{
+	align-self: stretch;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background: #ecf0f1;
+	text-transform: uppercase;
+}
+.PriorityContainer__subHeader{
+	display: flex;
+	font-size: 20px;
+}
+.PriorityContainer__body{
+	display: flex;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.PriorityContainer__counter{
+	width: 50%;
+	text-align: center;
+}
+.PriorityContainer__number{
+	width: 50%;
+	text-align: center;
+}

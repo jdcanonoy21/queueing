@@ -1,11 +1,11 @@
-.Priority{
+.PriorityContainer__content{
 	display: flex;
  	flex-direction: column;
  	width: 100%;
  	background: white;
  	border:2px solid #607d8b;
 }
-.Priority__header{
+.PriorityContainer__header{
 	align-self: stretch;
 	font-size: 40px;
 	text-align: center;
@@ -13,16 +13,20 @@
 	background: #ecf0f1;
 	text-transform: uppercase;
 }
-.Priority__body{
+.PriorityContainer__subHeader{
+	display: flex;
+	font-size: 20px;
+}
+.PriorityContainer__body{
 	display: flex;
 	font-size: 60px;
 	font-weight: bolder;
 }
-.Priority__counter{
+.PriorityContainer__counter{
 	width: 50%;
 	text-align: center;
 }
-.Priority__number{
+.PriorityContainer__number{
 	width: 50%;
 	text-align: center;
 }
